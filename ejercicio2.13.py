@@ -1,6 +1,7 @@
 '''Escribe un programa que solicite al usuario ingresar dos numeros
-y luego determine cual es el mayor de los dos.
-Solicitar al usuario ingresar dos numeros'''
+y luego determine cual es el mayor de los dos.'''
+
+
 #Solicitar al usuario ingresar dos numeros
 numero1 = float(input("Por favor, ingresa el primer número: "))
 numero2 = float(input("Ahora, ingresa el segundo número: "))

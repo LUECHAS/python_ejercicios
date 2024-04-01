@@ -4,7 +4,10 @@ nombre de un mes y luego indique cuantos dias tiene
 ese mes.
 '''
 #Solicitar al usuario ingresar el nombre del mes
-mes = input("Ingrese el nombre del mes: ").lower()
+mes = input("Ingrese el nombre del mes: ")
+
+#Convertir el nombre del mes a minúsculas
+mes = mes.lower()
 
 #Determinar cuántos días tiene el mes
 if mes in ("enero", "marzo", "mayo", "julio", "agosto", "octubre", "diciembre"):
